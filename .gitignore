@@ -1,16 +1,16 @@
 # Compiled files
-/target/
+*/target/
 
 # Generated documentation
-/doc/
+*/doc/
 
 # Dependency directories
-/vendor/
-/.cargo/
+*/vendor/
+*/.cargo/
 
 # Editor/IDE specific files
-/.vscode/
-/.idea/
+*/.vscode/
+*/.idea/
 *.swp
 *.swo
 

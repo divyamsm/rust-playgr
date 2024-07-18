@@ -20,5 +20,12 @@ fn main() {
 
     let autoselectint: isize = 1000; //automatically selects int size based on system architecture
 
+    let strslice = "Hello, World as str slice!"; //string slice : immutable ; compiled in code binary
+    let str_original: String = String::from("Hello, World as String!"); //String : mutable ; heap allocated
+
+    let str_conv: String = strslice.to_string(); //convert str slice to String
+    let str_conv2: String = String::from("whatever"); //convert string literal to String
+    let str_conv_rev: &str = &str_original; //convert String to str slice; dereference
+
     println!("Hello, World!");
 }

@@ -1,3 +1,7 @@
+use direxplore::get_cur_dir;
+
+pub mod direxplore;
+
 #[allow(unused_assignments)] //prevent warning for unused assignment
 #[allow(unused_variables)] //prevent warning for unused variable
 
@@ -28,4 +32,6 @@ fn main() {
     let str_conv_rev: &str = &str_original; //convert String to str slice; dereference
 
     println!("Hello, World!");
+
+    get_cur_dir();
 }

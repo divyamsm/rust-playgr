@@ -1,0 +1,28 @@
+# Compiled files
+*/target/
+
+# Generated documentation
+*/doc/
+
+# Dependency directories
+*/vendor/
+*/.cargo/
+
+# Editor/IDE specific files
+*/.vscode/
+*/.idea/
+*.swp
+*.swo
+
+# Build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db

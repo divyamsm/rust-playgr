@@ -1,6 +1,6 @@
-## rust-playgr
+# rust-playgr
 
-# Project 1 - todo list
+## Project 1 - todo list
 
 Through this project, I learnt the use of access identifiers like private and public on structs and methods. I also used the `colorized` crate to add some flair to this project.
 
